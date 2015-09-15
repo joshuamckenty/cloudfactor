@@ -1,4 +1,4 @@
-# baseurl = "http://cloudfactor.io"
+baseurl = "http://cloudfactor.io"
 languageCode = "en-us"
 title = "Cloud Factor Applications"
 publishdir = "./"
