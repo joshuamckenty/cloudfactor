@@ -1,0 +1,6 @@
+# box: wercker/python
+build:
+    steps:
+deploy:
+    steps:
+        - joshuamckenty/cloud-foundry-deploy
