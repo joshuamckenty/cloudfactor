@@ -1,0 +1,11 @@
+# baseurl = "http://cloudfactor.io"
+languageCode = "en-us"
+title = "Cloud Factor Applications"
+publishdir = "./"
+theme = "hyde"
+copyright = "Creative Commons CCO Licensed."
+disqusShortname = "cloudfactor-io"
+
+[params]
+Description = "12Factor meets DevOps meets Real Life"
+Copyright = "CC0 Licensed by Joshua McKenty, 2015."

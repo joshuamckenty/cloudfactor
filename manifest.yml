@@ -1,0 +1,8 @@
+---
+applications:
+- name: cloudfactor
+  memory: 64M
+  domain: cloudfactor.io
+  buildpack: staticfile_buildpack
+  instances: 1
+  no-hostname: true

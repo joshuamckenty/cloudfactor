@@ -1,0 +1,20 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <img src="/cat.jpg"/>
+      <h3>{{ .Site.Title }}</h3>
+      <p class="lead">
+      12Factor, but for the rest of us.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      {{ range .Site.Menus.main }}
+        <li><a href="{{.Url}}"> {{ .Name }} </a></li>
+      {{end}}
+    </ul>
+
+    <p>{{ with .Site.Params.Copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+  </div>
+</div>
