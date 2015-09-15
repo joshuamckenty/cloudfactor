@@ -1,6 +1,7 @@
-# box: wercker/python
+box: wercker/default
 build:
     steps:
+      - arjen/hugo-build@1.6.1
 deploy:
     steps:
         - joshuamckenty/cloud-foundry-deploy
