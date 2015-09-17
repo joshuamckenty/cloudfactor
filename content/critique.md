@@ -4,7 +4,7 @@ Tags = ["enterprise", "cloud native"]
 date = "2015-09-12T15:48:41-07:00"
 title = "Critique"
 draft = false
-menu = "main"
+# menu = "main"
 
 +++
 # A Critique of 12Factor
