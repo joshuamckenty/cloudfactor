@@ -30,7 +30,7 @@ Embed a tweet here:
 
 [Factor Nine: Immutable Infrastructure](/factor/nine)
 
-Factor 10. No comment at this time :)
+Factor Ten: Dev/Prod Parity
 
 [Factor Eleven: Logs](/factor/eleven)
 
